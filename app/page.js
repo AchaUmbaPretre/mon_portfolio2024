@@ -1,9 +1,10 @@
-
+import Navbar from '@/src/components/navbar/Navbar';
+import './page.css'
 export default function Home() {
 
   return (
     <div>
-      Subscribe to ZAINKEEPSCODE :)
+      <Navbar/>
     </div>
   );
 }
